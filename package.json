@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.ts --fix",
-    "postinstall": "yarn add husky@next --dev",
+    "postinstall": "yarn husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
