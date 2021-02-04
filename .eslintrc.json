@@ -21,7 +21,7 @@
     "rules": {
         "prefer-arrow-callback": "error",
         "curly":["error", "multi", "consistent"],
-        "max-len":["error", {"code": 60, "comments": 80, "ignoreStrings": true}],
+        "max-len":["error", {"code": 60, "comments": 80, "ignoreUrls": true}],
         "no-unexpected-multiline":"error",
         "quotes": ["error", "backtick"],
         "lines-around-comment": [
