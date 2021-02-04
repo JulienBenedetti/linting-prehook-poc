@@ -11,7 +11,7 @@ const ingredients: Array<Ingredients> = [pepperoni, cheese]
 const printPizza = function(pizza){
     console.log(`pizza production cost: `+pizza.computeIngredientsPrice());
     console.log(`piza true cost: `+pizza.price);
-}
+} 
 printPizza(pizza);
 const url = `https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md`;
 const pizzaName = pizza

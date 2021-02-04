@@ -23,8 +23,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint && node index.js"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn lint && node index.js"
     }
   }
 }
