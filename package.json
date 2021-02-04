@@ -4,7 +4,8 @@
   "description": "test linting",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.ts --fix"
+    "lint": "eslint **/*.ts --fix",
+    "postinstall": "husky install"
   },
   "author": "",
   "license": "ISC",
